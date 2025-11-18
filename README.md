@@ -32,8 +32,9 @@ fatal: repository 'https://github.com/<wrong-username>/<wrong-repo>.git/' not fo
 
 That means you gave the wrong username or repo name
 
-Run this command to fix:
+Run these commands to fix:
 - git remote remove 
 - git remote set-url origin https://github.com/<right-username>/<right-repo>.git
+- DELETE <NODE_MODULES> AND <BUILD> FOLDERS 
 - REPEAT FROM STEP 4
 - git remote -v (check that you added the right one)
